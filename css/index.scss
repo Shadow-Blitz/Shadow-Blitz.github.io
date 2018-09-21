@@ -13,10 +13,7 @@
     }
 }
 
-@include phone {
-    font-size: 1.5rem;
-    // background-color: $primary-color-phone;
-}
+
 
 
 body {
@@ -31,6 +28,10 @@ body {
     background-image: $primary-color;
     color: #ffffff;
 
+    @include phone {
+        font-size: 1.5rem;
+        background-size: cover;
+    }
 }
 
 main {

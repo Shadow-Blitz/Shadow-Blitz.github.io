@@ -1,8 +1,4 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
-@media screen and (max-width: 500px) {
-  font-size: 1.5rem;
-}
-
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,8 +15,15 @@ body {
   text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-image: radial-gradient(circle at top right, #001aff, #ec448c);
+  background-image: radial-gradient(circle at top right, #26B1CC, #ec448c);
   color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 1.5rem;
+    background-size: cover;
+  }
 }
 
 main {

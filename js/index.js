@@ -1,6 +1,6 @@
 deg = 0
 var tick = () => {
-    document.querySelector('body').style.background = `background linear-gradient(${deg += 0.5}deg, #001aff, #ec448c)`
+    document.querySelector('body').style.background = `background linear-gradient(${deg += .5}deg, #26B1CC, #ec448c)`
     requestAnimationFrame(tick)
 }
 requestAnimationFrame(tick)

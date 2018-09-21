@@ -1,89 +1,58 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
 body {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  background-image: radial-gradient(circle at top right, #26B1CC, #ec448c);
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-image: radial-gradient(circle at top right, #001aff, #ec448c);
-  color: #ffffff;
 }
 
 @media screen and (max-width: 500px) {
   body {
     font-size: 1.5rem;
+    background-size: cover;
   }
 }
 
-main {
-  width: 100%;
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  padding: 1rem 0;
 }
 
-main .title {
-  position: relative;
+.images {
+  max-width: 400px;
+  padding: 1rem 0;
 }
 
-main .title .title-text {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 100%;
-  z-index: 10;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+.text {
+  padding: 1rem 0;
 }
 
-.ts_cm {
-  opacity: 0.5;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 300;
-  line-height: 1;
-}
-
-p {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  line-height: 1.5;
-}
-
-ul {
-  margin: 0;
-  list-style-type: none;
-}
-
-li {
-  display: inline-block;
-  margin-right: .6rem;
-  margin-left: .6rem;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-  border-bottom: 3px solid transparent;
-}
-
-a:hover,
-a:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.8);
-}
-
-.Logo {
-  width: 50px;
+.logo {
   height: 50px;
-  fill: currentColor;
+  width: 50px;
 }
 /*# sourceMappingURL=about_me.css.map */
