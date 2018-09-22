@@ -41,13 +41,12 @@ body {
 }
 
 .images {
-  max-width: 400px;
+  max-width: 1000px;
   padding: 1rem 0;
 }
 
 .text {
   padding: 1rem 0;
-  border: 5px solid black;
 }
 
 .logo {
