@@ -16,8 +16,13 @@
 
 
 body {
+    @font-face {
+        font-family: 'Equestria';
+        src: url(docs/Equestria.otf);
+    }
+
     background-image: $primary-color;
-    font-family: $font-stack;
+    // font-family: $font-stack;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +40,7 @@ main {
         position: relative;
 
         .title-text {
+            font-weight: bold;
             position: absolute;
             left: 50%;
             top: 50%;

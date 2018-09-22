@@ -1,7 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
 body {
   background-image: radial-gradient(circle at top right, #26B1CC, #ec448c);
-  font-family: Arial, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,6 +18,13 @@ body {
   color: #ffffff;
 }
 
+@font-face {
+  body {
+    font-family: 'Equestria';
+    src: url(docs/Equestria.otf);
+  }
+}
+
 main {
   width: 100%;
 }
@@ -28,6 +34,7 @@ main .title {
 }
 
 main .title .title-text {
+  font-weight: bold;
   position: absolute;
   left: 50%;
   top: 50%;
