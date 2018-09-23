@@ -1,9 +1,9 @@
 # My Portfolio
 
 ## Link to portfolio
-
+https://shadow-blitz.github.io/
 ## Link to GitHub repo
-
+https://github.com/Shadow-Blitz/Shadow-Blitz.github.io
 
 ## Description
 
@@ -12,6 +12,7 @@ My website is created as part of an ongoing side project to show my personality 
 The page website features moving gradent backgrounds, links to other websites.
 ### Functionality / features
 ### Sitemap
+![sitemap](img/site_map.png)
 ### Screenshots
 ### Target audience
 Potentual employers.
