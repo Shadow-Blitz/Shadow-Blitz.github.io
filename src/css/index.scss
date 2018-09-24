@@ -26,7 +26,6 @@ body {
     text-align: center;
     flex-wrap: wrap;
     color: #ffffff;
-    border: 5px solid green;
 }
 
 main {
@@ -34,7 +33,6 @@ main {
 
     .title {
         position: relative;
-        border: 5px solid gray;
 
         .title-text {
             font-weight: bold;
@@ -44,7 +42,6 @@ main {
             width: 100%;
             z-index: 10;
             transform: translate(-50%, -50%);
-            border: 5px solid black;
         }
     }
 }
