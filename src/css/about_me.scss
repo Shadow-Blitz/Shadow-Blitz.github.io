@@ -13,11 +13,8 @@
     }
 }
 
-
-
-
 body {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: Arial, sans-serif;
     text-align: center;
     background-image: $primary-color;
@@ -41,15 +38,8 @@ body {
     padding: 1rem 0;
 }
 
-.images {
-    max-width: 1000px;
-    padding: 1rem 0;
-    // border: 20px solid blue;
-}
-
 .text {
     padding: 1rem 0;
-    // border: 5px solid black;
     text-align: left;
 }
 
@@ -60,4 +50,28 @@ body {
 
 .hobbies_ul {
     text-align: left;
+}
+
+@include phone {
+    body {
+        font-size: 0.75rem;
+    }
+
+    .images {
+        transform: scale(0.7);
+    }
+
+    footer {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+    .credits_icon {
+        max-width: 25px;
+        max-height: 25px;
+    }
 }

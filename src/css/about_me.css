@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
 body {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: Arial, sans-serif;
   text-align: center;
   background-image: radial-gradient(circle at top right, #26B1CC, #ec448c);
@@ -40,11 +40,6 @@ body {
   padding: 1rem 0;
 }
 
-.images {
-  max-width: 1000px;
-  padding: 1rem 0;
-}
-
 .text {
   padding: 1rem 0;
   text-align: left;
@@ -57,5 +52,26 @@ body {
 
 .hobbies_ul {
   text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 0.75rem;
+  }
+  .images {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  footer {
+    font-size: 1.25rem;
+  }
+  .logo {
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .credits_icon {
+    max-width: 25px;
+    max-height: 25px;
+  }
 }
 /*# sourceMappingURL=about_me.css.map */
