@@ -17,7 +17,6 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: #ffffff;
-  border: 5px solid green;
 }
 
 main {
@@ -26,7 +25,6 @@ main {
 
 main .title {
   position: relative;
-  border: 5px solid gray;
 }
 
 main .title .title-text {
@@ -38,7 +36,6 @@ main .title .title-text {
   z-index: 10;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 5px solid black;
 }
 
 .ts_cm {
