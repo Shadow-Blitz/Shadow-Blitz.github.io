@@ -1,0 +1,61 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
+body {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: radial-gradient(circle at top right, #26B1CC, #ec448c);
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo_of_me {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  padding: 1rem 0;
+}
+
+.images {
+  max-width: 1000px;
+  padding: 1rem 0;
+}
+
+.text {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.hobbies_ul {
+  text-align: left;
+}
+/*# sourceMappingURL=about_me.css.map */

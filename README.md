@@ -11,17 +11,27 @@ https://github.com/Shadow-Blitz/Shadow-Blitz.github.io
 My website is created as part of an ongoing side project to show my personality and flair.
 The page website features moving gradent backgrounds, links to other websites.
 ### Functionality / features
+has transparent image
+flex boxes
+animated gradiants
 ### Sitemap
-![sitemap](img/site_map.png)
+![sitemap](docs/site_map.png)
 ### Screenshots
+![screenshots](docs/screenshots_index.html.png)
+![screenshots](docs/screenshots_about_me.html.png)
 ### Target audience
 Potentual employers.
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
 ## Design documentation
 ### Design process
+getting insperation from another website.
+
 ### Wireframes
+![wirefremes](docs/wireframe_index.html.png)
+![wirefremes](docs/wireframe_about_me.html.png)
 ### Personal logo (optional)
+![personal logo](docs/personal_logo.png)
 ### Usability considerations
 
 ## Details of planning process
@@ -33,6 +43,9 @@ D3: consisted of getting the last of the foundation of the code layed down so th
 D4: consisted of documintation, documintation, documintation.
 D5: consisted of final layout adjustments, seeing if there needs to be any last adjustemnts to different devices and see is smaller or larger displays breaks the leyout of the code, and finally SUBMISSION.
 ### Screenshots of Trello board(s)
+![Trello](docs/Trello_screenshot_1.png)
+![Trello](docs/Trello_screenshot_2.png)
+![Trello](docs/Trello_screenshot_3.png)
 
 ## Short Answer Q&A - Include short answers to the following questions,
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
@@ -50,7 +63,9 @@ Web Servers, are servers that websites and game matches are hosted on. as as ser
 DNS (Domain Name Systems) is a simple conversion service that converts human readable URLs (IE http://www.google.com.au) to (172.217.167.67) as that is the IPv4 address of Google au. To find out the IP address of a website, simply open Termainal on your computer (MacOS / Linux) or Command Prompt / PowerShell (Windows) and type in ping followed by the url of the site you are accessing (IE ping www.google.com.au) and you will get the IP address of that site.
 But don't forget, large busniss websites have multiple IP addresses. so the one you just got may not always work.
 as for web browsers. you type in the IP address or the URL and you will get the site you wanted to access.
+
 3.  Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
-3A In the beginning of networks, the first ever created network was called the 'Sneekernet' as it was the original form of transmitting electronic information by personally carrying it from one place to another. On a flopy disk or any other removable medium. rather using the much slower telecommunications network.
+3A 
+In the beginning of networks, the first ever created network was called the 'Sneekernet' as it was the original form of transmitting electronic information by personally carrying it from one place to another. On a flopy disk or any other removable medium. rather using the much slower telecommunications network.
 The first form of LAN was a token ring network, as this network type, only one computer can talk and 1 can receive at the same time. then the computer has to wait for its turn to talk again. but this version of LAN didnt function to well, as when there is a device removed from the ring network, the entire LAN would break.
 The next major LAN type we use till today is called Ethernet bassed LAN, as this allows multiple computers to talk and listen at the same time. As well as you can add and remove computers without breaking the network like in token ring networks.
