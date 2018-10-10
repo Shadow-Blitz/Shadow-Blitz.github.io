@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## Link to portfolio
-https://shadow-blitz.github.io/
+https://shadow-blitz.github.io/src/index.html
 ## Link to GitHub repo
 https://github.com/Shadow-Blitz/Shadow-Blitz.github.io
 
