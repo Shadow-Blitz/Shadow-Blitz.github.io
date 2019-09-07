@@ -1,34 +1,41 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
 body {
-  font-size: 1.5rem;
-  font-family: Arial, sans-serif;
-  text-align: center;
   background-image: radial-gradient(circle at top right, #26B1CC, #ec448c);
-  color: #ffffff;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 100vh;
+  font-size: 2rem;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #ffffff;
+}
+
+
+
+html, body {
+  min-height: 100%;
+  margin: 0px;
 }
 
 .photo_of_me {
   height: 200px;
   width: 200px;
+  border-radius: 25px;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
